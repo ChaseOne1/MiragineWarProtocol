@@ -1,0 +1,17 @@
+edition = "2023";
+
+import "google/protobuf/cpp_features.proto";
+
+package proto;
+
+enum MessageBox{
+    MESSAGE_BOX_UNSPECIFIED = 0;
+    MESSAGE_BOX_NORMAL = 1;
+    MESSAGE_BOX_CLICKABLE = 2;
+}
+
+message ShowMessageNotify{
+    string text = 1 [features.(pb.cpp).string_type = VIEW];
+    MessageBox box_stlye = 2;
+    uint32 duration_seconds = 3;
+}
