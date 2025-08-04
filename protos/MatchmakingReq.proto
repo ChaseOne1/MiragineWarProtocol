@@ -1,0 +1,9 @@
+edition = "2023";
+
+import "google/protobuf/cpp_features.proto";
+
+package proto;
+
+message MatchmakingReq{
+    string host_name = 1 [features.(pb.cpp).string_type = VIEW];
+}
