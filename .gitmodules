@@ -1,3 +1,0 @@
-[submodule "3rdlibs/protobuf"]
-	path = 3rdlibs/protobuf
-	url = https://github.com/protocolbuffers/protobuf.git
