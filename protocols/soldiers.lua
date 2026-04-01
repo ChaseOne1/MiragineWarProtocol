@@ -1,0 +1,18 @@
+return {
+    RECRUIT    = 1,
+    VETERAN    = 2,
+    ZOMBIE     = 3,
+    SAMURAI    = 4,
+    SWORDSMAN  = 5,
+    NINJA      = 6,
+    SISTER     = 7,
+    ARMOREDMAN = 8,
+    MONK       = 9,
+    VAMPIRE    = 10,
+    KNIGHT     = 11,
+    IMMORTAL   = 12,
+    ARCANIST   = 13,
+    GENERAL    = 14,
+    DREADLORD  = 15,
+    HIGHLORD   = 16,
+}
