@@ -3,7 +3,7 @@ local config<const> = require("protocols.netoptions").InterfaceDefaultConfig
 local M = {
     client = {
         guid = nil,
-        MatchmakingRsp = function(another_name) return 128, config() end
+        MatchmakingRsp = function(opponent_name, opponent_camp) return 128, config() end
     },
 
     server = {
