@@ -1,4 +1,5 @@
 return {
+    Nexus      = 0,
     RECRUIT    = 1,
     VETERAN    = 2,
     ZOMBIE     = 3,
